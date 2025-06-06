@@ -1,0 +1,18 @@
+<div>
+    <h3>Les six premiers Pokémons :</h3>
+  <div>
+    <h3>Dans l'ordre du pokedex :</h3>
+    <div>
+      @for(pokemon of pokemons; track $index){
+        <div>
+          <h4 id = nom></h4>
+          <p>Catégorie :</p>
+          <p>Type :</p>
+          <p>Taille : m</p>
+          <p>Poids : kg</p>
+          {{pokemon}}
+        </div>
+      }
+    </div>
+  </div>
+</div>
